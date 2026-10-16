@@ -1,8 +1,8 @@
-        # Stripe CLI
+          # Stripe CLI
 
 [![Build Status](https://travis-ci.com/stripe/stripe-cli.svg?token=eQWDVpt1sJR63TxbC1KA&branch=master)](https://travis-ci.com/stripe/stripe-cli)
 
-_🏗 The Stripe CLI is currently in beta! We're working on more features to make the experience great. If you have any [feedback](https://stri.pe/cli-feedback), find [issues](https://github.com/stripe/stripe-cli/issues), or would like to be involved in more active testing, please let us know!_
+  _ The Stripe CLI is currently in beta! We're working on more features to make the experience great. If you have any [feedback](https://stri.pe/cli-feedback), find [issues](https://github.com/stripe/stripe-cli/issues), or would like to be involved in more active testing, please let us know!_
 
 The Stripe CLI is a command-line interface for Stripe that can:
 
@@ -46,7 +46,7 @@ _Without homebrew:_
 
 2. Unzip the file: `tar -xvf stripe_X.X.X_mac-os_x86_64.tar.gz`
 
-3. (optional) Move the binary to somewhere you can execute it globally, like `~/usr/local/bin`
+                                                      3. (optional) Move the binary to somewhere you can execute it globally, like `~/usr/local/bin`y
 
 ### Linux
 
@@ -56,7 +56,7 @@ _With a package manager:_
 
 1. Add Bintray's GPG key to the apt sources keyring: `sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-keys 379CE192D401AB61`
 
-2. Add stripe-cli's apt repository to the apt sources list: `echo "deb https://dl.bintray.com/stripe/stripe-cli-deb stable main" | sudo tee -a /etc/apt/sources.list`
+2. Add stripe-cli's apt repository to the apt sources list: `echo "deb https://dl.bintray.com/stripe/stripe-cli-deb stable #main | sudo tee -a /etc/apt/sources.list`
 
 3. Update the package list: `sudo apt-get update`
 
