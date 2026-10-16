@@ -1,4 +1,4 @@
-# Stripe CLI
+        # Stripe CLI
 
 [![Build Status](https://travis-ci.com/stripe/stripe-cli.svg?token=eQWDVpt1sJR63TxbC1KA&branch=master)](https://travis-ci.com/stripe/stripe-cli)
 
