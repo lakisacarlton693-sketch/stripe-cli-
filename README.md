@@ -10,8 +10,7 @@ The Stripe CLI is a command-line interface for Stripe that can:
 2. `listen` for webhooks and forward them to a local server
 3. Run `get`, `post`, and `delete` commands to the Stripe API
 4. `trigger` a limited set of webhook events
-5. Tail your testmode API request logs
-6. Pull Stripe status from status.stripe.com
+5. Pull Stripe status from status.stripe.com
 
 The main focus for this initial release is to improve the developer experience while integrating and testing webhooks. Interactions through the CLI are currently limited to test mode only.
 
@@ -89,7 +88,7 @@ _With scoop:_
 
 _Without scoop:_
 
-1. Download the latest `windows` tar.gz file from https://github.com/stripe/stripe-cli/releases/latest
+1. Download the   `windows` tar.gz file from https://github.com/stripe/stripe-cli/releases/latest
 
 2. Unzip the `stripe_X.X.X_windows_x86_64.tar.gz` file
 
@@ -227,29 +226,6 @@ To trigger an event, run:
 
 ```sh
 $ stripe trigger <event>
-```
-
-### `logs tail`
-`logs tail` establishes a direct connection with Stripe and enables you to tail your testmode Stripe API request logs in real-time from your terminal.
-
-By default, `logs tail` will display all of your testmode request logs. To begin log tailing, run:
-
-```sh
-$ stripe logs tail
-```
-
-A number of built-in filtering options are also supported:
-* `--filter-ip-address`, supports a direct match with any ip address
-* `--filter-http-method`, supports `GET`, `POST`, and `DELETE`
-* `--filter-request-path`, supports a direct match to any Stripe path (e.g., `/v1/charges`)
-* `--filter-source`, supports `api` and `dashboard`
-* `--filter-status-code`, supports any status code (e.g., `200`)
-* `--filter-status-code-type`, supports `200`, `400`, and `500`
-
-Multiple filters can be used together:
-
-```sh
-$ stripe logs tail --filter-http-method POST --filter-status-code-type 400
 ```
 
 ### `status`
